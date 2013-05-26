@@ -1,0 +1,92 @@
+@font-face {
+  font-family:"Minecraftia";
+  src: url("../fonts/Minecraftia.eot?") format("eot"), url("../fonts/Minecraftia.woff") format("woff"), url("../fonts/Minecraftia.ttf") format("truetype"), url("../fonts/Minecraftia.svg#Minecraftia") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+#container {
+  padding: 5px;
+}
+.crafting-table {
+  background: #c6c6c6;
+  width: 352px;
+  border-radius: 6px;
+  border: 2px solid #000000;
+}
+.crafting-table-container {
+  border-top: 4px solid #ffffff;
+  border-right: 4px solid #555555;
+  border-bottom: 4px solid #555555;
+  border-left: 4px solid #ffffff;
+  border-radius: 4px;
+  padding-bottom: 10px;
+}
+.crafting-title {
+  text-shadow: none;
+  margin: 4px 0px 4px 38px;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 0px;
+  font-family: "Minecraftia", monospace;
+  color: #000;
+}
+.crafting-table-area {
+  width: 160px;
+  float: left;
+}
+.crafting-table-item-container {
+  margin-top: 64px;
+  float: right;
+  width: 110px;
+}
+.crafting-table-row-one,
+.crafting-table-row-two,
+.crafting-table-row-three {
+  display: inline;
+  margin-left: 2px;
+}
+.crafting-table-row-one-item-one, 
+.crafting-table-row-one-item-two, 
+.crafting-table-row-one-item-three, 
+.crafting-table-row-two-item-one, 
+.crafting-table-row-two-item-two, 
+.crafting-table-row-two-item-three, 
+.crafting-table-row-three-item-one, 
+.crafting-table-row-three-item-two, 
+.crafting-table-row-three-item-three,
+.crafting-table-item {
+  margin: -2px;
+  display: inline-block;
+  width: 36px;
+  height: 36px;
+  border-top: 2px solid #373737;
+  border-right: 2px solid #ffffff;
+  border-bottom: 2px solid #ffffff;
+  border-left: 2px solid #373737;
+  background-color: #8b8b8b;
+}
+.crafting-table-item {
+  width: 52px;
+  height: 52px;
+}
+.crafting-table-item-arrow {
+  float: left;
+  height: 6px;
+  width: 28px;
+  background: #8b8b8b;
+  margin: 24px 0 0px -60px;
+  position: relative;
+  display: block;
+}
+.crafting-table-item-arrow:after {
+  content: "";
+  position: absolute;
+  right: -16px;
+  top: -11px;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-left: 16px solid #8b8b8b;
+} 
+.clear {
+  clear: both;
+}
